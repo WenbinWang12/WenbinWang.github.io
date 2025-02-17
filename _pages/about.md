@@ -27,8 +27,8 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+I am currently a second-year Master's student in Computer Science and Technology at the School of Information Science and Technology at ShanghaiTech University, Shanghai, China. Since 2023, I have had the privilege of joining [Data Science And Intelligence Lab (DSAIL)](https://www.ncvxopt.com/), where I am supervised by [Prof. Ziping Zhao](https://www.zipingzhao.com). Before this, I completed my Bachelor's degree in Economics with a focus on Economic Statistics at the College of Economics and Management, Huazhong Agricultural University, Wuhan, China, in 2022. During my undergraduate studies, I was fortunate to work with [Prof. Zeyu Zhang](https://mari.hzau.edu.cn/people/people/Zhang_Zeyu.htm) on macro-economics research.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+My current research interests include **Optimization, statistics, and reinforcement learning**, with a specific focus on the context of multi-agent systems where agents interact strategically.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+**<font color='DeepPink'>[Highlight]</font> I am actively seeking PhD opportunities starting in Fall 2026. Please feel free to reach out to me at - *wangwb2023@shanghaitech.edu.cn* if you would like to collaborate or discuss any of my work.**
