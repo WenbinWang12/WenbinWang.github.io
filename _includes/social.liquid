@@ -93,11 +93,11 @@
     {% when 'zotero_username' %}
       <a href="https://www.zotero.org/{{ social[1] }}" title="Zotero"><i class="ai ai-zotero"></i></a>
     {% else %}
-      <a id="{{ site.wechat.button.id }}" title="{{ site.wechat.button.title }}">
+      <a id="WeChatBtn" title="{{ site.wechat.button.title }}">
         <i class="{{ site.wechat.button.icon_class }}"></i>
       </a>
-      <div id="{{ site.wechat.modal.id }}" class="{{ site.wechat.modal.class }}">
-        <img src="{{ site.wechat.modal.image.src }}" alt="{{ site.wechat.modal.image.alt }}" id="{{ site.wechat.modal.image.id }}">
+      <div id="WeChatMod" class="wechat-modal">
+        <img src="{{ site.wechat.modal.image_src | relative_url }}" alt="{{ site.wechat.modal.image_alt }}" id="WeChatQR">
       </div>
   {% endcase %}
 {% endfor %}
