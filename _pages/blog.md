@@ -193,4 +193,14 @@ pagination:
 {% include pagination.liquid %}
 {% endif %}
 
+
+<b>Chat with me:</b> I have set up the <a href="{{ https://calendly.com/luminaryalexander/public-coffee-hours }}">{{ public-coffee-hours }}</a>. Welcome to chat with me! (This may take a while to load. Try refreshing the page if it's not loading.)
+
+
+    <div style="display:flex; justify-content:center; align-items:center; height:80%;">
+        <div class="calendly-inline-widget" data-url="https://calendly.com/luminaryalexander/public-coffee-hours" style="min-width:1080px;width:50%;height:640px;"></div>
+    </div>
+    <script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js" async></script>
+
+
 </div>
