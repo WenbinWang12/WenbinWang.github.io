@@ -93,12 +93,17 @@ layout: default
         .maps-container {
             display: flex;
             justify-content: space-between;
-            width: 100%; /* 设置地图容器的宽度为网页宽度的80% */
+            width: 100%; /* 设置地图容器的宽度为网页宽度的100% */
             margin: 0 auto; /* 居中显示地图容器 */
         }
         .map {
-            flex: 1; /* 每个地图元素占用等量的空间 */
             padding: 10px; /* 添加一些内边距 */
+        }
+        .map-left {
+            flex:0 0 30%; /* 左边部分占30% */
+        }
+        .map-right {
+            flex:0 0 70%; /* 右边部分占70% */
         }
     </style>
     </head>
