@@ -76,5 +76,42 @@ layout: default
     {% if site.newsletter and site.newsletter.enabled and site.footer_fixed %}
       {% include newsletter.liquid center=true %}
     {% endif %}
+    ## Chat with me
+
+    **Mar 2024:** I have set up the [public-coffee-hours](https://calendly.com/luminaryalexander/public-coffee-hours). Welcome to chat with me!
+
+    (This may take a while to load. Try refreshing the page if it's not loading.)
+
+
+    <div style="display:flex; justify-content:center; align-items:center; height:100%;">
+        <div class="calendly-inline-widget" data-url="https://calendly.com/luminaryalexander/public-coffee-hours" style="min-width:1080px;width:50%;height:640px;"></div>
+    </div>
+    <script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js" async></script>
+
+    <head>
+    <style>
+        .maps-container {
+            display: flex;
+            justify-content: space-between;
+            width: 80%; /* 设置地图容器的宽度为网页宽度的80% */
+            margin: 0 auto; /* 居中显示地图容器 */
+        }
+        .map {
+            flex: 1; /* 每个地图元素占用等量的空间 */
+            padding: 10px; /* 添加一些内边距 */
+        }
+    </style>
+    </head>
+    <body>
+        <div class="maps-container">
+            <div class="map">
+                <script type="text/javascript" id="clstr_globe" src="//clustrmaps.com/globe.js?d=f9PS-X4OV41qKQUoUJoMQUFCcCTcYCS4PJT1b4is2cI"></script>
+            </div>
+            <div class="map">
+                <script type="text/javascript" id="clustrmaps" src="//clustrmaps.com/map_v2.js?d=63lt3u27mRTSNL9Daqqqamyu4oYVlab8Wji73yBoEHk&cl=ffffff&w=a"></script>
+            </div>
+        </div>
+    </body>
+
   </article>
 </div>
