@@ -1,9 +1,8 @@
 ---
 layout: post
 date: 2023-09-19 00:00:00-0400
-inline: false
+inline: true
 related_posts: false
 ---
 
-Announcements and news can be much longer than just quick inline posts. In fact, they can have all the features available for the standard blog posts. See below.
-
+I started my master's journey at [ShanghaiTech University](https://www.shanghaitech.edu.cn/) and joined Prof. [Ziping Zhao](https://faculty.sist.shanghaitech.edu.cn/zhao/)'s group!
