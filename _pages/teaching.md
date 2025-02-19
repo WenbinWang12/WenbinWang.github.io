@@ -2,11 +2,8 @@
 layout: page
 permalink: /teaching/
 title: teaching
-description: Materials for courses you taught. Replace this text with your description.
 nav: true
 nav_order: 6
 ---
 
-For now, this page is assumed to be a static description of your courses. You can convert it to a collection similar to `_projects/` so that you can have a dedicated page for each course.
-
-Organize your courses by years, topics, or universities, however you like!
+<p align="left">TA in [CS182](https://cs182.sist.shanghaitech.edu.cn/)</p>  <p align="right">[ShanghaiTech University](https://shanghaitech.edu.cn/), Fall 2024</p>
