@@ -93,18 +93,11 @@
     {% when 'zotero_username' %}
       <a href="https://www.zotero.org/{{ social[1] }}" title="Zotero"><i class="ai ai-zotero"></i></a>
     {% else %}
-      <a href="{{ social[1].url }}" title="{{ social[1].title }}">
-        {% assign file_ext = social[1].logo | split: '.' | last %}
-        {% if file_ext == 'svg' %}
-          <svg>
-            <image xlink:href="{% if social[1].logo contains '://' %}{{ social[1].logo }}{% else %}{{ social[1].logo | relative_url }}{% endif %}" />
-          </svg>
-        {% else %}
-          <img
-            src="{% if social[1].logo contains '://' %}{{ social[1].logo }}{% else %}{{ social[1].logo | relative_url }}{% endif %}"
-            alt="{{ social[1].title }}"
-          >
-        {% endif %}
+      <a id="{{ site.wechat.button.id }}" title="{{ site.wechat.button.title }}">
+        <i class="{{ site.wechat.button.icon_class }}"></i>
       </a>
+      <div id="{{ site.wechat.modal.id }}" class="{{ site.wechat.modal.class }}">
+        <img src="{{ site.wechat.modal.image.src }}" alt="{{ site.wechat.modal.image.alt }}" id="{{ site.wechat.modal.image.id }}">
+      </div>
   {% endcase %}
 {% endfor %}
