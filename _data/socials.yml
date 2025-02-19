@@ -48,13 +48,10 @@ rss_icon: true # set to true to show the RSS icon
 custom_social: # can be any name here other than the ones already defined above
   wechat:
   button:
-    id: "WeChatBtn"
+    iwechat:
+  button:
     title: "WeChat"
     icon_class: "fa-brands fa-weixin"
   modal:
-    id: "WeChatMod"
-    class: "wechat-modal"
-    image:
-      src: "{{ site.wechat_qr | prepend: 'assets/img/' | relative_url }}"
-      alt: "WeChat QR"
-      id: "WeChatQR"
+    image_src: "/assets/img/wechat_qr.png"
+    image_alt: "WeChat QR"
