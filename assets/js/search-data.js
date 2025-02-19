@@ -389,16 +389,16 @@ ninja.data = [{
           window.location.href = "/blog/2015/formatting-and-links/";
         
       },
-    },{id: "news-a-simple-inline-announcement",
-          title: 'A simple inline announcement.',
-          description: "",
-          section: "News",},{id: "news-a-long-announcement-with-details",
+    },{id: "news-a-long-announcement-with-details",
           title: 'A long announcement with details',
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/announcement_2/";
             },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
           title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
+          description: "",
+          section: "News",},{id: "news-poisoning-attacks-and-defenses-to-federated-unlearning-has-been-accepted-to-www-2025-thanks-to-my-wonderful-collaborators",
+          title: '📣 Poisoning Attacks and Defenses to Federated Unlearning has been accepted to WWW...',
           description: "",
           section: "News",},{id: "projects-project-1",
           title: 'project 1',
