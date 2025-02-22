@@ -28,7 +28,7 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I am currently a second-year Master's student in Computer Science and Technology at the School of Information Science and Technology at ShanghaiTech University, Shanghai, China. Since 2023, I have had the privilege of joining [Data Science And Intelligence Lab (DSAIL)](https://www.ncvxopt.com/), where I am supervised by [Prof. Ziping Zhao](https://www.zipingzhao.com). Before this, I completed my Bachelor's degree in Economics with a focus on Economic Statistics at the College of Economics and Management, Huazhong Agricultural University, Wuhan, China, in 2022. During my undergraduate studies, I was fortunate to work with [Prof. Zeyu Zhang](https://mari.hzau.edu.cn/people/people/Zhang_Zeyu.htm) on macro-economics research.
+I am currently a second-year Master's student in Computer Science and Technology at the School of Information Science and Technology at ShanghaiTech University, Shanghai, China. Since 2023, I have had the privilege of joining [Data Science And Intelligence Lab (DSAIL)](https://www.ncvxopt.com/), where I am supervised by [Prof. Ziping Zhao](https://www.zipingzhao.com). Before this, I completed my Bachelor's degree in Economics with a focus on Economic Statistics at the College of Economics and Management, Huazhong Agricultural University, Wuhan, China, in 2022. During my undergraduate studies, I was fortunate to work with [Prof. Zeyu Zhang](https://faculty.hzau.edu.cn/zhangzeyu/zh_CN/index/142041/list/index.htm) on macro-economics research.
 
 My current research interests include **Optimization, statistics, and reinforcement learning**, with a specific focus on the context of multi-agent systems where agents interact strategically.
 
